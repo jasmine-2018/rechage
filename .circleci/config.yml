@@ -11,6 +11,6 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
-      - run;
-          name:build
-          command:present/make.sh
+      - run:
+          name: build
+          command: present/make.sh
