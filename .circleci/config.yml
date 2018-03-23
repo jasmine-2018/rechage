@@ -12,5 +12,8 @@ jobs:
           name: Print the Current Time
           command: date
       - run:
+          name: right
+          command: chmod 777 present/make.sh
+      - run:
           name: build
           command: present/make.sh
