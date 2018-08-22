@@ -9,6 +9,9 @@ jobs:
           name: Greeting
           command: echo Hello, world.
       - run:
+          name: ls
+          command: ls -l
+      - run:
           name: Print the Current Time
           command: date
       - run:
